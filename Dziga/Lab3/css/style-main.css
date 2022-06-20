@@ -465,7 +465,7 @@ body{
     align-items: flex-end;
     justify-content: space-between;
     padding-top: 9px;
-    z-index: 5;
+    z-index: 2;
 }
 .header__list{
     display: flex;
@@ -490,7 +490,6 @@ body{
     opacity: .75;
 }
 
-
 /* Header styles end */
 
 
@@ -504,8 +503,6 @@ body{
     background-size: cover;
     padding-top: 187px;
 }
-
-/* Intro styles end */
 
 .intro__title{
     max-width: 566px;
@@ -522,7 +519,6 @@ body{
     color: #130F49;
 
     margin-bottom: 35px;
-
 }
 
 .intro__subtitle{
@@ -538,7 +534,7 @@ body{
     margin-bottom: 32px;
 }
 
-.button-form__info{
+.button-form__info-zhenia{
     display: flex;
     flex-wrap: wrap;
 }
@@ -556,275 +552,149 @@ body{
     color: #FFFFFF;
     background: #130F49;
     border-radius: 20px;
-    margin-bottom: 600px;
+    margin-bottom: 96%;
+   
    
 }
 
 .button-form__link:hover, .button-form__link:focus, .button-form__link:active{
     background: #08071B;
 } 
-/* 
-.ivent__title{
 
-    margin-bottom: 89px;
 
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 64px;
-    letter-spacing: -0.02em;
-    color: #130F49;
-} */
-.ivent__title{
-    margin-left: 60%;
+.intro__pers2title{
     max-width: 388px;
     width: 388px;
-    height: 128px;
 
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 400;
     font-size: 70px;
     line-height: 64px;
+    /* or 91% */
+    
     letter-spacing: -0.02em;
+    
+    /* #130F49 */
+    
     color: #130F49;
-    margin-bottom: 10px;
+
+    margin-top: -38%;
+    margin-bottom: 15px;
+    margin-left: 50%;
 }
 
-.ivent__subtitle{
-
-    margin-left: 30%;
-    max-width: 388px;
-    width: 388px;
-    height: 128px;
-    left: 362px;
-
+.intro__pers2subtitle{
+    max-width: 600px;
     font-family: 'Open Sans';
     font-style: normal;
-
+    font-weight: 400;
     font-size: 24px;
-
+    line-height: 35px;
+    /* or 145% */
+    
     letter-spacing: -0.01em;
+    
     color: #05031B;
+    
     opacity: 0.4;
-    margin-bottom: 10%;
+    margin-left: 50%;
+    margin-bottom: 32px;
 }
 
-.details__title{
-    position: absolute;
-    width: 569px;
-    height: 231px;
-    left: 362px;
-    top: 1856px;
+.shopp{
+    margin-left:46%;
+    margin-bottom: 50%;
+}
+
+.intro__pers3title{
+    max-width: 388px;
+    width: 388px;
 
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 400;
     font-size: 70px;
-    line-height: 77px;
+    line-height: 64px;
+    /* or 91% */
+    
     letter-spacing: -0.02em;
+    
+    /* #130F49 */
+    
     color: #130F49;
-} 
 
-.details__subtitle{
-    position: absolute;
-    width: 466px;
-    height: 252px;
-    left: 898px;
-    top: 2004px;
+    margin-top: -30%;
+    margin-left: 5%;
+    margin-bottom: 0.5%;
+    
+}
 
+.intro__pers3subtitle{
+    max-width: 600px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 50px;
-
-    letter-spacing: -0.01em;
-
-
-    color: #130F49;
-
-    opacity: 0.4;
-}
-
-.details1__title{
-    position: absolute;
-    width: 256px;
-    height: 34px;
-    left: 1016px;
-    top: 2302px;
-
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 34px;
-
-
-    letter-spacing: -0.01em;
-
-    color: #130F49;
-}
-
-.details1__subtitle{
-    position: absolute;
-    width: 364px;
-    height: 159px;
-    left: 1016px;
-    top: 2349px;
-    
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    /* or 126% */
     
     letter-spacing: -0.01em;
+    
+    /* #130F49 */
     
     color: #130F49;
     
     opacity: 0.4;
+    margin-left: 60%;
+    margin-top: -5%;
+    margin-bottom: 3%;
 }
 
-.details2__title{
-    position: absolute;
-    width: 248px;
-    height: 34px;
-    left: 1016px;
-    top: 2532px;
-    
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 34px;
-    
-    letter-spacing: -0.01em;
-    
-    color: #130F49;
+.det1{
+    margin-left: 58%;
 }
 
-.details2__subtitle{
-    position: absolute;
-    width: 364px;
-    height: 144px;
-    left: 1016px;
-    top: 2579px;
-    
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    
-    letter-spacing: -0.01em;
-    
-    color: #130F49;
-    
-    opacity: 0.4;
-}
-
-.details3__title{
-    position: absolute;
-    width: 248px;
-    height: 34px;
-    left: 1016px;
-    top: 2747px;
-    
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 34px;
-    
-    letter-spacing: -0.01em;
-    
-    color: #130F49;
-}
-
-.details3__subtitle{
-    position: absolute;
-    width: 364px;
-    height: 144px;
-    left: 1016px;
-    top: 2794px;
-    
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    
-    letter-spacing: -0.01em;
-    
-    color: #130F49;
-    
-    opacity: 0.4;
-}
-
-.detail1_pic{
-    position: absolute;
-    width: 74px;
-    height: 74px;
-    left: 906px;
-    top: 2282px;
-}
-
-.detail2_pic{
-    position: absolute;
-    width: 74px;
-    height: 74px;
-    left: 906px;
-    top: 2512px;
-}
-
-.detail3_pic{
-    position: absolute;
-    width: 74px;
-    height: 74px;
-    left: 906px;
-    top: 2727px;
-}
-
-.im1{
-    position: absolute;
-    width: 74px;
-    height: 74px;
-    left: 906px;
-    top: 2282px;
-
-    background: url(../img/svg/det1.svg) no-repeat center;
-    background-size: cover;
-}
-
-.im2{
-    position: absolute;
-    width: 74px;
-    height: 74px;
-    left: 906px;
-    top: 2512px;
-    background: url(../img/svg/det2.svg) no-repeat center;
-    background-size: cover;
-}
-
-.im3{
-    position: absolute;
-    width: 74px;
-    height: 74px;
-    left: 906px;
-    top: 2727px;
-    background: url(../img/svg/det3.svg) no-repeat center;
-    background-size: cover;
-}
-
-.ivent3__title{
-    position: absolute;
+.intro__det1title{
+    max-width: 388px;
     width: 388px;
-    height: 126px;
-    left: 280px;
-    top: 3082px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height, or 142% */
     
+    letter-spacing: -0.01em;
+    
+    color: #130F49;
+    margin-left: 67%;
+    margin-top: -5%;
+    margin-bottom: 15px;
+}
+
+.intro__det1subtitle{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    
+    letter-spacing: -0.01em;
+    
+    color: #130F49;
+    
+    opacity: 0.4;
+    margin-left: 67%;
+    margin-bottom: 5%;
+}
+
+.intro__pers4title{
+    max-width: 388px;
+    width: 388px;
+
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 400;
@@ -837,15 +707,11 @@ body{
     /* #130F49 */
     
     color: #130F49;
+    
 }
 
-.ivent3__subtitle{
-    position: absolute;
-    width: 450px;
-    height: 170px;
-    left: 272px;
-    top: 3238px;
-    
+.intro__pers4subtitle{
+    max-width: 600px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -860,40 +726,26 @@ body{
     color: #130F49;
     
     opacity: 0.4;
+    margin-bottom: 3%;
 }
 
-/* .im6{
-    position: absolute;
-    width: 186px;
-    height: 76px;
-    left: 280px;
-    top: 3432px;
-    background: url(../img/svg/app-store.svg) no-repeat center;
-    background-size: cover;
-} */
-
-.im5{
-    position: absolute;
-    width: 997px;
-    height: 88px;
-    left: 311px;
-    top: 3610px;
-    
-    background: url(../img/svg/allprog.svg) no-repeat center;
+.shopp2{
+    margin-bottom:20%;
 }
 
-.details4__title{
-    position: absolute;
-    width: 898px;
-    height: 86px;
-    left: 341px;
-    top: 3780px;
-    
+.container3{
+    margin-bottom: 12%;
+}
+
+.intro__pers5title{
+    max-width: 388px;
+    width: 388px;
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 400;
     font-size: 90px;
     line-height: 85px;
+    margin-left: 16%;
     /* identical to box height, or 95% */
     
     text-align: center;
@@ -903,3 +755,4 @@ body{
     
     color: #130F49;
 }
+
