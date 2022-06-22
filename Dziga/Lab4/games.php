@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Всі ігри та проекти</title>
+    <link rel="stylesheet" href="./css/style-games.css">
+</head>
+<body>
+    <class class="container">
+        <header class="header">
+            <div class="wrapper">
+                <div class="header__wrapper">
+                    <div class="header__logo">
+                        <a href="#!" class="header__logo-link">
+                            <img src="./img/svg/dziga-logo.svg" alt="Створимо новий ігровий світ" class="header__logo-pic">
+                        </a>
+                    </div>
+        
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a href="index.php" class="header__link">Головна</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#!" class="header__link">Всі ігри</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="collaboration.php" class="header__link">Кооперація</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="team.php" class="header__link">Команда</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="intro">
+                <div class="wrapper">
+                    <h1 class="intro__title">
+                        Деякі з наших робіт
+                    </h1>                  
+                </div>
+    
+                <!-- Places start -->  
+            <section class="places">
+                <div class="wrapper-full">
+                    <div class="places__cards">
+                        <figure class="places__card places__card_size_lg">
+                            <img src="./img/ph1.png" alt="Lavrin2D" class="places__card-pic places__card-pic_size_lg">
+                            <figcaption class="places__card-title">
+                                Lavrin 2D
+                            </figcaption>
+                            <a href="#!" class="places__card-link"></a>
+                        </figure>
+                        
+                        <figure class="places__card places__card_size_lg">
+                            <img src="./img/ph2.png" alt="Stranger" class="places__card-pic places__card-pic_size_lg">
+                            <figcaption class="places__card-title">
+                                Stranger
+                            </figcaption>
+                            <a href="#!" class="places__card-link"></a>
+                        </figure>
+    
+                        <figure class="places__card places__card_size_sm">
+                            <img src="./img/ph3.png" alt="Gordon Shop" class="places__card-pic places__card-pic_size_sm">
+                            <figcaption class="places__card-title">
+                                Gordon Shop 3D
+                            </figcaption>
+                            <a href="#!" class="places__card-link"></a>
+                        </figure>
+    
+                        <figure class="places__card places__card_size_sm">
+                            <img src="./img/ph4.png" alt="Inception" class="places__card-pic places__card-pic_size_sm">
+                            <figcaption class="places__card-title">
+                                Inception 2D
+                            </figcaption>
+                            <a href="#!" class="places__card-link"></a>
+                        </figure>
+    
+                        <figure class="places__card places__card_size_sm">
+                            <img src="./img/ph5.png" alt="Pidviknom" class="places__card-pic places__card-pic_size_sm">
+                            <figcaption class="places__card-title">
+                                Pidviknom 
+                            </figcaption>
+                            <a href="#!" class="places__card-link"></a>
+                        </figure>
+    
+                    </div>
+                </div>
+            </section>
+            <!-- Places end -->
+        </main>
+    </class>
+</body>
+</html>

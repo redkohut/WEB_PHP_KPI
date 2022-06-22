@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Створимо новий ігровий світ</title>
+    <meta name="viewport" content="width=device-width">
+    <title>Єднаймося, брати мої</title>
     <link rel="stylesheet" href="./css/style-collaboration.css">
 </head>
 <body>
-    <header class="header">
+    <class class="container">
+            <header class="header">
         <div class="wrapper">
             <div class="header__wrapper">
                 <div class="header__logo">
@@ -19,16 +20,16 @@
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item">
-                            <a href="index.html" class="header__link">Головна</a>
+                            <a href="index.php" class="header__link">Головна</a>
                         </li>
                         <li class="header__item">
-                            <a href="games.html" class="header__link">Всі ігри</a>
+                            <a href="games.php" class="header__link">Всі ігри</a>
                         </li>
                         <li class="header__item">
                             <a href="#!" class="header__link">Кооперація</a>
                         </li>
                         <li class="header__item">
-                            <a href="team.html" class="header__link">Команда</a>
+                            <a href="team.php" class="header__link">Команда</a>
                         </li>
                     </ul>
                 </nav>
@@ -75,5 +76,6 @@
                 </class>
             </div>
     </main>
+    </class>
 </body>
 </html>
